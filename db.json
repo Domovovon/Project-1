@@ -1,5 +1,9 @@
 {
     "users": {
-        
+        "id": 1,
+        "name": "Gorobshik54",
+        "email": "vovan.korosten@gmail.com",
+        "photo_url": "https://static.wikia.nocookie.net/p__/images/e/e3/Flowery_Battle.png/revision/latest?cb=20260818203015&path-prefix=protagonist",
+        "balance": 1500
     }
 }
