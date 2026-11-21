@@ -1,4 +1,4 @@
-var productGrid
+var productGrid = document.getElementById("product-grid")
 var url = "https://robocode-json.artem4ikk02.workers.dev/Domovovon/Project-1"
 fetch(url + "/products")
 .then(async function(response){
@@ -7,8 +7,15 @@ fetch(url + "/products")
     products.forEach(element => {
         var productDiv = document.createElement("div")
 
+        productDiv.innerHTML =
+        `
+        
+        
+        
+        `
+
         productsArray.push(element)
-        productGrid.
+        productGrid.append(productDiv)
 
     });
 
