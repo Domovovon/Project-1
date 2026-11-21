@@ -17,7 +17,8 @@ body {
 
 /* HEADER */
 header {
-    background-color: #5003C0;
+    background-color: #00105B;
+
     padding: 30px 20px;
     border-bottom: 3px solid #7165c9;
 }
@@ -33,7 +34,7 @@ header h1 {
 .navbar {
     width: 75px;
     min-height: calc(100vh - 100px);
-    background-color: #5003C0;
+    background-color: #00105B;
     position: absolute;
     left: 0;
     top: 113px;
@@ -57,7 +58,7 @@ main {
 /* PRODUCT GRID */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -90,6 +91,7 @@ main {
     width: 100%;
     height: 220px;
     object-fit: cover;
+    background-size: cover;
     border-radius: 10px;
     border: 2px solid #454365;
 }
