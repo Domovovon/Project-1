@@ -65,7 +65,7 @@ main {
 
 /* PRODUCT CARD */
 .product {
-    background-color: #D552A3;
+    background-color: #00105B;
     border: 2px solid #542177;
     border-radius: 16px;
     padding: 22px;
@@ -113,7 +113,17 @@ main {
     }
 }
 
+.price span {
+    color: #aaa8c5;
+    font-size: 15px;
+    font-weight: 700;
+}
 
+.price h2 {
+    color: #98E8De;
+    font-size: 24px;
+    font-weight: 900;
+}
 
 
 
