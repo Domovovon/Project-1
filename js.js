@@ -4,9 +4,11 @@ fetch(url + "/products")
     var products = await response.json()
     var productsArray = null;
     products.forEach(element => {
+        var productDiv = document.createElement("div")
 
         productsArray.push(element)
+        productGrid
 
     });
-    
+
 })
