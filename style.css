@@ -1,7 +1,7 @@
-
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap'); */
+@font-face {
+  font-family: DTMono; /* set name */
+  src: url(./determinationmonoweb-webfont.ttf); /* url of the font */
+}
 
 * {
     margin: 0;
@@ -10,23 +10,24 @@
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'DTMono';
     background-color: #11111b;
-    color: #eeeeff;
+    color: #00c6ff;
 }
 
 /* HEADER */
 header {
     background-color: #00105B;
-
+    position: fixed;
     padding: 30px 20px;
-    border-bottom: 3px solid #7165c9;
+    border-bottom: 3px solid #00c6ff;
+    width: 100%;
 }
 
 header h1 {
     font-size: 36px;
     font-weight: 900;
-    color: #a99cff;
+    color: #00c6ff;
     letter-spacing: 2px;
 }
 
@@ -35,18 +36,18 @@ header h1 {
     width: 75px;
     min-height: calc(100vh - 100px);
     background-color: #00105B;
-    position: absolute;
+    position: fixed;
     left: 0;
-    top: 113px;
+    top: 99px;
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    border-right: 2px solid #7165c9;
+    border-right: 2px solid #00c6ff;
 }
 
 .navbar i {
     font-size: 27px;
-    color: #a99cff;
+    color: #00c6ff;
 }
 
 /* MAIN */
@@ -67,7 +68,7 @@ main {
 /* PRODUCT CARD */
 .product {
     background-color: #00105B;
-    border: 2px solid #542177;
+    border: 2px solid #00c6ff;
     border-radius: 16px;
     padding: 22px;
     display: flex;
@@ -76,13 +77,13 @@ main {
 }
 
 .product h3 {
-    color: #98E8DE;
+    color: #09f1ff;
     font-size: 23px;
     font-weight: 800;
 }
 
 .product p {
-    color: #c2c1d6;
+    color: #09f1ff;
     font-size: 15px;
     line-height: 1.7;
 }
@@ -93,7 +94,7 @@ main {
     object-fit: cover;
     background-size: cover;
     border-radius: 10px;
-    border: 2px solid #454365;
+    border: 2px solid #09f1ff;
 }
 
 /* MOBILE */
