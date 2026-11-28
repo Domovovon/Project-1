@@ -13,6 +13,20 @@
             "email": "dmitrosolod2020@gmail.com",
             "photo_url": "https://example.com/photo2.jpg",
             "balance": 2000
+        },
+        {
+            "id": 3,
+            "name": "Toby Fox",
+            "email": "tobyfox[BIG_SHOT]@gmail.com",
+            "photo_url": "https://example.com/photo2.jpg",
+            "balance": 2000
+        },
+        {
+            "id": 4,
+            "name": "Toby Fox",
+            "email": "tobyfox[BIG_SHOT]@gmail.com",
+            "photo_url": "https://example.com/photo2.jpg",
+            "balance": 2000
         }
     ],
 
@@ -22,21 +36,24 @@
             "name": "Deltarune Ch1-5",
             "description": "Dive into the parallel story to UNDERTALE! Fight or spare your way through action-packed battles as you explore a mysterious world alongside an endearing cast of new characters. Chapters 1-5 available, but more chapters will be added soon,free updates!",
             "photo_url": "https://img.opencritic.com/game/12005/fvaPAXrF.jpg",
-            "price": "24.99$"
+            "price": "24.99$",
+            "authorid": 3
         },
         {
             "id": 2,
             "name": "Deltarune Ch1-2 Demo",
             "description": "Dive into the parallel story to UNDERTALE! Fight or spare your way through action-packed battles as you explore a mysterious world alongside an endearing cast of new and familiar characters. Chapters 1-2 available, a free demo.",
             "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5QFhKEA4MTduTLEKOnHLH5XgnfBS_e4-G4JJcQpMd6Q&s=10",
-            "price": "Free!"
+            "price": "Free!",
+            "authorid": 3
         },
         {
             "id": 3,
             "name": "Undertale",
             "description": "In this RPG, you don't have to kill anyone. Each enemy can be defeated nonviolently. Dance with a slime. Pet a dog. Whisper your favorite secret to a knight. Or, ignore this choice and rain destruction upon your foes.",
             "photo_url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg?t=1757349115",
-            "price": "9.99$"
+            "price": "9.99$",
+            "authorid": 3
         },
         {
             "id": 4,
