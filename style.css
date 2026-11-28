@@ -87,7 +87,6 @@ header h1 {
 
 .navbar i:hover {
     color: white;
-    transform: scale(1.2);
     filter: drop-shadow(0 0 10px var(--cyan));
 }
 
