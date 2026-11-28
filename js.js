@@ -16,6 +16,8 @@ fetch(url + "/products")
                 <h2>${element.price}</h2>
                 </div>
                 <img src="${element.photo_url}">
+                <button><center><h1>Add to cart</h1></center></button>
+                <button><center><h1>See seller profile</h1></center></button>
         
         
         `
