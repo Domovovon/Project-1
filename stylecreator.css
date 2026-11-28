@@ -1,0 +1,10 @@
+@font-face {
+  font-family: DTMono; /* set name */
+  src: url(./determinationmonoweb-webfont.ttf); /* url of the font */
+}
+
+
+
+body{
+    font-family: 'DTMono', monospace;
+}
