@@ -282,3 +282,25 @@ main {
         height: 200px;
     }
 }
+
+
+.creator-sidebar {
+    position: fixed;
+    overflow: hidden;
+    background: linear-gradient(
+        145deg,
+        var(--panel-light),
+        var(--panel)
+    );
+    border-left: 1px solid rgba(0, 198, 255, 0.5);
+    padding: 20px;
+    bottom: 10;
+    display: flex;
+    right:0px;
+    gap: 16px;
+    transition: 0.3s ease;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    height: 1000px;
+    width: 0;
+    z-index: 10000;
+}
